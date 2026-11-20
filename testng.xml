@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite Nespresso">
+    <listeners>
+        <listener class-name="com.nespresso.listeners.ScreenshotListener"/>
+    </listeners>
+    <test name="Tests fonctionnels Nespresso Tunisie">
+        <classes>
+            <class name="com.nespresso.test.NespressoTest"/>
+        </classes>
+    </test>
+</suite>

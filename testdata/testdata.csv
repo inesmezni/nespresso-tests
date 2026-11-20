@@ -1,0 +1,7 @@
+cle;valeur
+recherche.existante;Vertuo
+recherche.inexistante;PRODUIT_INEXISTANT_TEST_987654
+login.email.fictif;adresse-inexistante@example.com
+login.password.fictif;MotDePasseIncorrect123!
+login.email.mauvais.format;email_sans_arobase
+login.password.mauvais.format;MotDePasse123!

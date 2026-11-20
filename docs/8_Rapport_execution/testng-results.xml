@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-20T08:52:46 WAT" name="Suite Nespresso" finished-at="2026-11-20T08:54:20 WAT" duration-ms="94250">
+    <groups>
+    </groups>
+    <test started-at="2026-11-20T08:52:46 WAT" name="Tests fonctionnels Nespresso Tunisie" finished-at="2026-11-20T08:54:20 WAT" duration-ms="94250">
+      <class name="com.nespresso.test.NespressoTest">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:52:46 WAT" name="invokeBrowser" finished-at="2026-11-20T08:52:54 WAT" duration-ms="7907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="openHomepage()[pri:1, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:52:54 WAT" name="openHomepage" finished-at="2026-11-20T08:52:54 WAT" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method signature="acceptCookies()[pri:2, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:52:54 WAT" name="acceptCookies" finished-at="2026-11-20T08:52:55 WAT" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptCookies -->
+        <test-method signature="searchExistingProduct()[pri:3, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:52:55 WAT" name="searchExistingProduct" finished-at="2026-11-20T08:53:02 WAT" duration-ms="6720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchExistingProduct -->
+        <test-method signature="searchUnknownProduct()[pri:4, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:53:02 WAT" name="searchUnknownProduct" finished-at="2026-11-20T08:53:07 WAT" duration-ms="5312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUnknownProduct -->
+        <test-method signature="openOriginalCapsules()[pri:5, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:53:07 WAT" name="openOriginalCapsules" finished-at="2026-11-20T08:53:16 WAT" duration-ms="8820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openOriginalCapsules -->
+        <test-method signature="openVertuoCapsules()[pri:6, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:53:16 WAT" name="openVertuoCapsules" finished-at="2026-11-20T08:53:21 WAT" duration-ms="5573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openVertuoCapsules -->
+        <test-method signature="openMachinesCategory()[pri:7, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:53:21 WAT" name="openMachinesCategory" finished-at="2026-11-20T08:53:27 WAT" duration-ms="5414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMachinesCategory -->
+        <test-method signature="openAccessoriesCategory()[pri:8, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:53:27 WAT" name="openAccessoriesCategory" finished-at="2026-11-20T08:53:33 WAT" duration-ms="5733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccessoriesCategory -->
+        <test-method signature="selectProduct()[pri:9, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:53:33 WAT" name="selectProduct" finished-at="2026-11-20T08:53:37 WAT" depends-on-methods="com.nespresso.test.NespressoTest.openAccessoriesCategory" duration-ms="4570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProduct -->
+        <test-method signature="productPriceDisplayed()[pri:10, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:53:37 WAT" name="productPriceDisplayed" finished-at="2026-11-20T08:53:38 WAT" depends-on-methods="com.nespresso.test.NespressoTest.selectProduct" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productPriceDisplayed -->
+        <test-method signature="addProductToCart()[pri:11, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:53:38 WAT" name="addProductToCart" finished-at="2026-11-20T08:53:39 WAT" depends-on-methods="com.nespresso.test.NespressoTest.selectProduct" duration-ms="1851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method signature="verifyCart()[pri:12, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:53:39 WAT" name="verifyCart" finished-at="2026-11-20T08:53:44 WAT" depends-on-methods="com.nespresso.test.NespressoTest.addProductToCart" duration-ms="4319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCart -->
+        <test-method signature="updateCartQuantity()[pri:13, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:53:44 WAT" name="updateCartQuantity" finished-at="2026-11-20T08:53:47 WAT" depends-on-methods="com.nespresso.test.NespressoTest.verifyCart" duration-ms="3561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCartQuantity -->
+        <test-method signature="removeProductFromCart()[pri:14, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:53:47 WAT" name="removeProductFromCart" finished-at="2026-11-20T08:53:56 WAT" depends-on-methods="com.nespresso.test.NespressoTest.verifyCart" duration-ms="8367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+        <test-method signature="openLoginPage()[pri:15, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:53:56 WAT" name="openLoginPage" finished-at="2026-11-20T08:53:57 WAT" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="invalidLogin()[pri:16, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:53:57 WAT" name="invalidLogin" finished-at="2026-11-20T08:54:01 WAT" duration-ms="4381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="emptyLoginFields()[pri:17, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:54:01 WAT" name="emptyLoginFields" finished-at="2026-11-20T08:54:05 WAT" duration-ms="4357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyLoginFields -->
+        <test-method signature="invalidEmailFormat()[pri:18, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:54:05 WAT" name="invalidEmailFormat" finished-at="2026-11-20T08:54:10 WAT" duration-ms="4414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailFormat -->
+        <test-method signature="openStoreLocator()[pri:19, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:54:10 WAT" name="openStoreLocator" finished-at="2026-11-20T08:54:16 WAT" duration-ms="5716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openStoreLocator -->
+        <test-method signature="footerShippingLink()[pri:20, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:54:16 WAT" name="footerShippingLink" finished-at="2026-11-20T08:54:19 WAT" duration-ms="3589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerShippingLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.nespresso.test.NespressoTest@359f7cdf]" started-at="2026-11-20T08:54:19 WAT" name="closeBrowser" finished-at="2026-11-20T08:54:20 WAT" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.nespresso.test.NespressoTest -->
+    </test> <!-- Tests fonctionnels Nespresso Tunisie -->
+  </suite> <!-- Suite Nespresso -->
+</testng-results>

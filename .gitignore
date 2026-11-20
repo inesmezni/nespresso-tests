@@ -1,0 +1,11 @@
+# Fichiers générés par Maven (recréés à chaque mvn clean test)
+target/
+
+# Fichiers de l'éditeur
+.vscode/
+.idea/
+*.iml
+
+# Fichiers système Windows
+Thumbs.db
+desktop.ini
